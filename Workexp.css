@@ -1,0 +1,25 @@
+.WorkContainer{
+   display: flex;
+   max-width: 50%;
+   margin: auto;
+   flex-direction: column;
+}
+.button{
+   background-color: rgb(199, 246, 199);
+   padding: 10px;
+   margin: 10px;
+   color: black;
+   border: none;
+}
+.proceed{
+   background-color: rgb(24,24,58);
+   padding: 10px;
+   margin: 10px;
+   color: white;
+   cursor: pointer;
+}
+@media screen and (max-width:500px) {
+   .WorkContainer{
+      max-width: 90%;
+   }
+}
